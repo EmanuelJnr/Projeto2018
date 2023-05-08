@@ -1,0 +1,14 @@
+<Logica.CentralDeInformacoes>
+  <usuariosCadastrados>
+    <Logica.Usuario>
+      <login>junior</login>
+      <senha>123</senha>
+      <emailSeguranca>emanuel</emailSeguranca>
+      <nome>Emanuel</nome>
+      <endereco>rua</endereco>
+      <cidade>são</cidade>
+      <estado>pb</estado>
+    </Logica.Usuario>
+  </usuariosCadastrados>
+  <leiloesCadastrados/>
+</Logica.CentralDeInformacoes>
