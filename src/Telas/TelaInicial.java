@@ -25,18 +25,16 @@ public class TelaInicial extends TelaPadrao {
 		add(jl);
 	}
 	private void adicionarLabels() {
-		Labels lbFrase1 = new Labels("Já possuo conta!", 450, 80, 200, 50);
-		add(lbFrase1);
+		add(new Labels("Já possuo conta!", 450, 80, 200, 50));
 
-		Labels lbFrase2 = new Labels("Cadastre-se já!", 450, 180, 200, 50);
-		add(lbFrase2);
+		add(new Labels("Cadastre-se já!", 450, 180, 200, 50));
 
-		Labels lbFrase3 = new Labels(" Ver Leilões ativos", 30, 70, 200, 50);
-		add(lbFrase3);
+		add(new Labels(" Ver Leilões ativos", 30, 70, 200, 50));
 	}
 	private void adicionarBotoes() {
 		JButtons btCadastrar = new JButtons("Cadastrar", 450, 230, 100, 25);
 		add(btCadastrar);
+		
 		btCadastrar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				dispose();

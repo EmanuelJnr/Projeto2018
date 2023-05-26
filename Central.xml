@@ -9,6 +9,15 @@
       <cidade>são</cidade>
       <estado>pb</estado>
     </Logica.Usuario>
+    <Logica.Usuario>
+      <login>asdasd</login>
+      <senha>asdasd</senha>
+      <emailSeguranca>asd</emailSeguranca>
+      <nome>nsdkfjndf</nome>
+      <endereco>wrfwef</endereco>
+      <cidade>asdsad</cidade>
+      <estado>asdasd</estado>
+    </Logica.Usuario>
   </usuariosCadastrados>
   <leiloesCadastrados/>
 </Logica.CentralDeInformacoes>

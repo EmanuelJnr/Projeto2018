@@ -38,14 +38,11 @@ public class TelaDeCadastroUsuario extends TelaPadrao {
 		setVisible(true);
 	}
 	private void adicionarLabels() {
-		Labels jlNome = new Labels("Nome: *", 40, 80, 100, 30);
-		add(jlNome);
+		add(new Labels("Nome: *", 40, 80, 100, 30));
 
-		Labels jlLogin = new Labels("Login: *", 40, 110, 100, 30);
-		add(jlLogin);
-
-		Labels jlSenha = new Labels("Senha: *", 40, 140, 100, 30);
-		add(jlSenha);
+		add(new Labels("Login: *", 40, 110, 100, 30));
+		
+		add(new Labels("Senha: *", 40, 140, 100, 30));
 
 		Labels jlSeguranca = new Labels("Email segurança", 40, 170, 150, 30);
 		add(jlSeguranca);
