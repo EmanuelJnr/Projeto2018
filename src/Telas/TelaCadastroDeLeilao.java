@@ -91,6 +91,7 @@ public class TelaCadastroDeLeilao extends TelaPadrao{
 				float preco1 = Float.parseFloat(preco.getText());
 				
 				String tempoI1 = tempoInicio.getText();
+				System.out.println(tempoI1);
 				DateTimeFormatter dataIf = new DateTimeFormatterBuilder().appendPattern("dd/MM/yyyy HH:mm").toFormatter();
 				LocalDateTime datai = LocalDateTime.parse(tempoI1, dataIf);
 				String tempoF1 = tempoFim.getText();

@@ -6,10 +6,10 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="xstream-1.4.20.jar"/>
-	<classpathentry kind="lib" path="itextpdf-5.1.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/i5-10400/eclipse-workspace/jar_files/activation-1.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/i5-10400/eclipse-workspace/jar_files/commons-email-1.5.jar"/>
 	<classpathentry kind="lib" path="C:/Users/i5-10400/eclipse-workspace/jar_files/javax.mail-1.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/i5-10400/eclipse-workspace/jar_files/itextpdf-5.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/i5-10400/eclipse-workspace/jar_files/xstream-1.4.20.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
